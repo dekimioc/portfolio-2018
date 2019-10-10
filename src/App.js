@@ -1,28 +1,35 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import NavBar from './components/NavBar/NavBar';
+import MainPage from './components/MainPage/MainPage';
+import Skills from './components/Skils/Skills';
+import AboutMe from "./components/AboutMe/AboutMe";
+import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import { Router, Route } from 'react-router-dom';
+import { createBrowserHistory } from 'history';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
-}
+var history = createBrowserHistory();
+
+class App extends React.Component {
+    render() {
+       
+        return (
+            <Router history={history}>
+                <div className="App">
+                    <Route path="/" exact component={NavBar}></Route>
+                    <Route path="/" exact component={MainPage}></Route>
+                    <Route path="/" exact component={Skills}></Route>
+                    <Route path="/" exact component={AboutMe}></Route>
+                    <Route path="/" exact component={Projects}></Route>
+                    <Route path="/" exact component={Contact}></Route>
+                    <Route path="/" exact component={Footer}></Route>
+                </div>
+            </Router>
+            
+        )
+    }
+};
 
 export default App;

@@ -1,0 +1,169 @@
+.outerDiv {
+    background-color: #181A1C;
+    position: relative;
+}
+
+.skills-header { 
+    max-width: 1170px; 
+    padding: 80px 20px 0 20px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 46px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}   
+
+.skills-subheader {
+    max-width: 1170px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    margin: 0 auto;
+    padding: 30px 0px;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#FECE1A;
+}
+
+.skill-header {
+    color: #fff;
+}
+
+.image-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap: 50px;
+    padding: 50px 0;
+}
+
+.contHTML {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.html {
+    display: block;
+    margin: 0 auto;
+    color: #FECE1A;
+}
+
+.html:hover {
+    transform: scale(1.2);
+}
+
+.contHTML img {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    border: 4px solid #fff;
+}
+
+.skills-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+
+
+.ul-list-skills {
+    list-style-type: none;
+    position: relative;
+    margin: 0px 30px 0 0;
+   
+}
+
+.list-skills {
+    background-color: white;
+    height: 40px;
+    position: relative;
+    margin-bottom: 10px;
+    padding: 1px;
+}
+
+.list-span {
+    background-color: #FECE1A;
+    position: absolute;
+    width: 90%;
+    height: 38px;
+}
+
+.list-span-css {
+    background-color: #FECE1A;
+    position: absolute;
+    width: 85%;
+    height: 38px;
+}
+.list-span-sass {
+    background-color: #FECE1A;
+    position: absolute;
+    width: 78%;
+    height: 38px;
+}
+.list-span-bootstrap {
+    background-color: #FECE1A;
+    position: absolute;
+    width: 73%;
+    height: 38px;
+}
+.list-span-javascript {
+    background-color: #FECE1A;
+    position: absolute;
+    width: 87%;
+    height: 38px;
+}
+.list-span-jquery {
+    background-color: #FECE1A;
+    position: absolute;
+    width: 79%;
+    height: 38px;
+}
+.list-span-react {
+    background-color: #FECE1A;
+    position: absolute;
+    width: 88%;
+    height: 38px;
+}
+.list-span-redux {
+    background-color: #FECE1A;
+    position: absolute;
+    width: 80%;
+    height: 38px;
+}
+.list-span-git {
+    background-color: #FECE1A;
+    position: absolute;
+    width: 73%;
+    height: 38px;
+}
+
+.h3-skills {
+    position: relative;
+    top: 8px;
+    left: 10px;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+}
+
+
+@media (max-width: 778px) {
+    .image-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    
+}
+
+@media (max-width: 535px) {
+    .image-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .skills-header {
+        font-size: 34px;
+    }
+}

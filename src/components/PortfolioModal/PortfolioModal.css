@@ -1,0 +1,74 @@
+.portfolioModal {
+    background-color: rgb(254, 206, 26, 0.5);
+    width: 95%;
+    height: 100%;
+    top: 30px;
+    margin: 10px auto;
+    color: white;
+    position: relative;
+    padding:  50px;
+}
+
+.icon-close-modal {
+    position: absolute;
+    right: 3%;
+    top: 10px;
+    cursor: pointer;
+    color: #181A1C;
+}
+
+.modal-arrow-right {
+    position: absolute;
+    top: 40%;
+    right: 10px;
+    font-size: 20px;
+}
+
+.modal-arrow-left { 
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    font-size: 20px;
+}
+
+.modal-image-container {
+    max-width: 950px;
+    height: 450px;
+    margin: 0 auto;
+    overflow: scroll;
+    
+}
+
+.modal-image-size {
+    width: 100%;
+    height: auto;
+   
+}
+
+.modal-text-section {
+    max-width: 950px;
+    margin: 0 auto;
+    background-color: #181A1C;
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px 20px;
+}
+
+.modal-span {
+    color: #FECE1A;
+    margin-right: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+.modal-link-color {
+    color: #fff;
+    word-wrap: break-word;
+}
+
+.modal-link-color:hover {
+    color: #FECE1A;
+}
+
+.paragraph-span {
+    padding-bottom: 10px;
+}

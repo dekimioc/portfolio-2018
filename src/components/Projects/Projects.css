@@ -1,0 +1,188 @@
+.background {
+    background-color: #181A1C;
+    height: auto;
+}
+
+.outer-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: self-end;
+    padding: 20px 0;
+    z-index: 1;
+}
+
+.project-main-page {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.projects-header {
+    text-align: center;
+    font-size: 46px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    padding: 40px 10px 0 10px;
+}
+
+.projects-subheader {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    padding: 30px 0;
+    font-size: 24px;
+    color:#FECE1A;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.modal-container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.gitHub-link {
+    color: #d6d6c2;
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.gitHub-link a {
+    color:rgb(254, 206, 26);
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.gitHub-link a:hover {
+    color: #cba515;
+    cursor: pointer;
+    
+}
+
+.imageResponsive {
+    max-width: 370px;
+    padding: 10px 40px;
+    position: relative;
+}
+
+.nature-image {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+
+
+
+.thumb-overlay {
+    background-color: #FECE1A;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+ }
+
+ .project-header {
+     padding-top: 5px;
+     margin: 5px;
+ }
+
+ .project-caption {
+     padding: 5px 5px 10px 5px;
+     color: #fff;
+ }
+
+ .mask {
+    background-color: rgba(254,206,26, 0.7);
+    width: 100%;
+    height: 100%;
+    font-size: 32px;
+    position:absolute;
+    top: -100%;
+  
+ }
+
+ .link-modal {
+    cursor: pointer;
+    color: #181A1C;
+ }
+
+ .link-modal:hover {
+    color: #181A1C;
+ }
+
+ .plus-icon {
+     position: absolute;
+     top: 100%;
+ }
+
+ .thumb-overlay:hover .plus-icon {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 32px;
+    transition: 0.5s;
+ }
+
+ 
+.thumb-overlay:hover .mask {
+    top: 0;
+    transition: 0.5s;
+}
+
+.click-project {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.5fr;
+}
+
+.click-project-image {
+    width: 100%;
+    height: auto;
+}
+
+.description {
+    background-color: #FECE1A;
+    width: 1170px;   
+}
+
+.click-project-header {
+    text-align: center;
+    width: 100%;
+}
+
+.click-project-skills {
+    text-align: left;
+}
+
+.portfolioModal {
+    background-color: rgb(254, 206, 26, 0.5);
+    position: absolute;
+    top: 50%;
+    z-index: 999;
+    left: 1%;
+    right: 0;
+    top: 0;
+    width: 98%;
+    height: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1068px) {
+    .outer-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 762px) {
+    .outer-container {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+}

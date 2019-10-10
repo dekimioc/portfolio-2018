@@ -1,0 +1,67 @@
+.mainHeaderContainer {
+   position: relative;
+   top: 10%;
+}
+
+.backgroundMain {
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    height: 100%;
+}
+
+.main-picture-back {
+    max-width: auto;
+}
+
+.image-main {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.mainDejan {
+    margin: auto auto;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 1170px;
+}
+
+.colorName {
+    color: #fff;
+}
+
+.scroll-up {
+    color: #fff;
+    width: 35px;
+    height: 40px;
+    background-color: rgb(254, 206, 26);
+    position: fixed;
+    bottom: 5px;
+    right: 3px;
+    z-index: 1000;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+
+
+
+@media (max-width: 960px) {
+    .backgroundMain {
+        top: 150px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mainDejan {
+        font-size: 16px;
+    }
+
+    .backgroundMain {
+        top: 100px;
+    }
+}
