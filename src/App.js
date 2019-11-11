@@ -14,7 +14,6 @@ var history = createBrowserHistory();
 
 class App extends React.Component {
     render() {
-       
         return (
             <Router history={history}>
                 <div className="App">
@@ -27,7 +26,6 @@ class App extends React.Component {
                     <Route path="/" exact component={Footer}></Route>
                 </div>
             </Router>
-            
         )
     }
 };

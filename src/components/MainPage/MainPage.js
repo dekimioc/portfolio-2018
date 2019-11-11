@@ -7,6 +7,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 
 class MainPage extends React.Component {
+
     render() {
         return (
           <Slide top>

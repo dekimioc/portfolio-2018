@@ -1,4 +1,5 @@
 {
+  "homepage": "http://dekimioc.github.io/portfolio-2018",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -6,8 +7,9 @@
     "animate.css": "^3.7.0",
     "axios": "^0.18.0",
     "emailjs-com": "2.3.2",
-    "react": "^16.7.0",
+    "react": "^16.11.0",
     "react-animated-css": "^1.0.4",
+    "react-animated-slider": "^1.1.4",
     "react-dom": "^16.7.0",
     "react-icons": "^3.3.0",
     "react-modal": "^3.8.1",
@@ -18,10 +20,15 @@
     "react-router-scroll-top": "^0.1.1",
     "react-scripts": "^2.1.5",
     "react-scroll": "^1.7.11",
+    "react-swipe": "^6.0.4",
     "react-toastr": "^3.0.0",
-    "react-transition-group": "^2.6.0"
+    "react-transition-group": "^2.6.0",
+    "swipe-js-iso": "^2.1.5",
+    "swiper": "^5.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -35,5 +42,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
 }

@@ -137,6 +137,12 @@ const Skills = () => {
                             <h3 className="h3-skills">Git</h3>
                             </Flip>
                         </li>
+                        <li className="list-skills">
+                        <Flip right>
+                            <span className="list-span-wordpress"></span>
+                            <h3 className="h3-skills">Wordpress</h3>
+                            </Flip>
+                        </li>
                     </ul>
                 </div>
             </div>

@@ -48,6 +48,7 @@
     display: block;
     margin: 0 auto;
     color: #FECE1A;
+    transition: all .3s ease-in-out;
 }
 
 .html:hover {
@@ -137,6 +138,13 @@
     background-color: #FECE1A;
     position: absolute;
     width: 73%;
+    height: 38px;
+}
+
+.list-span-wordpress {
+    background-color: #FECE1A;
+    position: absolute;
+    width: 53%;
     height: 38px;
 }
 
