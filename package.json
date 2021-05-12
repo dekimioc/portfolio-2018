@@ -24,7 +24,7 @@
     "react-toastr": "^3.0.0",
     "react-transition-group": "^2.6.0",
     "swipe-js-iso": "^2.1.5",
-    "swiper": "^5.2.0"
+    "swiper": "^6.5.1"
   },
   "scripts": {
     "predeploy": "npm run build",
